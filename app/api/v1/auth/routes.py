@@ -21,7 +21,6 @@ router = APIRouter(
 @router.post("/register", summary="User Registration")
 def register_user_endpoint(data: RegisterSchema, db: Session = Depends(get_db)):
 
-    # ✅ VALIDATION
     is_valid, msg = validate_register_data(data)
     if not is_valid:
         return ErrorResponse(
