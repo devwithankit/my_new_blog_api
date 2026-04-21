@@ -1,0 +1,24 @@
+fastapi
+uvicorn[standard]
+
+# DB
+sqlalchemy
+asyncpg
+psycopg2-binary
+
+# Auth
+python-jose[cryptography]
+passlib[bcrypt]
+
+# Validation
+pydantic
+email-validator
+
+# Env
+python-dotenv
+
+# Forms
+python-multipart
+
+# Logging (optional but good)
+loguru
