@@ -22,3 +22,4 @@ python-multipart
 
 # Logging (optional but good)
 loguru
+pydantic-settings
