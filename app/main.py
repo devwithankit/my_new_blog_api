@@ -2,7 +2,6 @@ from fastapi import FastAPI, Depends
 from fastapi.openapi.utils import get_openapi
 from fastapi.openapi.models import SecurityScheme, APIKey, APIKeyIn
 from fastapi.security import HTTPBearer, APIKeyHeader
-
 from app.api.v1.auth.routes import router as auth_router
 from app.api.v1.blog.routes import router as blog_router
 from app.core.middleware import APIKeyMiddleware
