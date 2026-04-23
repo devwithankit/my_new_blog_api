@@ -24,3 +24,6 @@ python-multipart
 # Logging (optional but good)
 loguru
 pydantic-settings
+
+Pillow
+python-magic  # For file type detection (optional but recommended)
